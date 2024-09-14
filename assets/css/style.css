@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #2b2f36;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    min-height: 80vh;
+    direction: rtl;
+    text-align: center;
+    font-family: 'iransansxv', tahoma !important;
+    padding: 10vh 12vw;
+}
+
+@font-face {
+    font-family: 'iransansxv';
+    src: url('assets/fonts/iransansxv.woff') format('woff-variations'),
+    url('assets/fonts/iransansxv.woff') format('woff');
+    font-weight: 100 900;
+    font-display: fallback;
+}
+
+.icon {
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+.title {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.subtitle {
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+    opacity: .4;
+}
+
+@media (max-width: 1599.98px) {
+    body {
+        gap: 24px;
+    }
+
+    .icon {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 27px;
+    }
+
+    .subtitle {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    body {
+        gap: 10px;
+    }
+
+    .icon {
+        width: 65px;
+    }
+
+    .title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+}
