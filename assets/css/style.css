@@ -20,8 +20,8 @@ body {
 
 @font-face {
     font-family: 'iransansxv';
-    src: url('assets/fonts/iransansxv.woff') format('woff-variations'),
-    url('assets/fonts/iransansxv.woff') format('woff');
+    src: url('../fonts/iransansxv.woff') format('woff-variations'),
+    url('../fonts/iransansxv.woff') format('woff');
     font-weight: 100 900;
     font-display: fallback;
 }
